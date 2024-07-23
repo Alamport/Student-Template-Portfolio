@@ -1,5 +1,5 @@
 body {
-    background: red;
+    background: linear-gradient(125deg, #4a7a6e, #e0a66a);
     font-family: 'Roboto', sans-serif;
     color: #333;
     margin: 0;
@@ -27,6 +27,7 @@ body {
 
 .navbar {
     position: relative;
+    padding-right: 20px; /* Match the padding-left of .header */
 }
 
 .menu {
