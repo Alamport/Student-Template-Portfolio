@@ -27,7 +27,7 @@ body {
 
 .navbar {
     position: relative;
-    padding-right: 20px; /* Match the padding-left of .header */
+    padding-right: 40px; /* Adjusted padding-right */
 }
 
 .menu {
