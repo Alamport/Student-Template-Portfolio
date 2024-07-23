@@ -5,7 +5,7 @@
 
     <!-- Recommended meta tags -->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Stylesheet (CSS) -->
     <link rel="stylesheet" href="./index.css">
@@ -16,8 +16,14 @@
     <header class="header">
         <a class="name">Adin Lamport</a>
         <nav class="navbar">
-            <a href="#">Home</a>
-            <a href="#portfolio">Portfolio</a>
+            <div class="dropdown">
+                <button class="dropbtn">Menu</button>
+                <div class="dropdown-content">
+                    <a href="#">Home</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#contact">Contact Me</a>
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -38,7 +44,7 @@
         <!-- PROJECT -->
         <article class="project-card">
             <a href="./project01.html" class="project-link">
-                <h2 class="porject-title">Project 1: Paper Airplane</h2>
+                <h2 class="project-title">Project 1: Paper Airplane</h2>
                 <p class="project-desc">Create a paper airplane only using Generative AI as a guide.</p>
                 <img src="./images/project01.png" class="project-img">
             </a>
@@ -47,12 +53,21 @@
         <!-- PROJECT -->
         <article class="project-card">
             <a href="./project02.html" class="project-link">
-                <h2 class="porject-title">Project 2: Design a Coaster</h2>
+                <h2 class="project-title">Project 2: Design a Coaster</h2>
                 <p class="project-desc">Use Generative AI to design a drink coaster for a client.</p>
                 <img src="./images/project02.png" class="project-img">
             </a>
         </article>
 
+    </section>
+
+    <!-- Contact Section -->
+    <a name="contact"></a>
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: adin.lamport@example.com</p>
+        <p>Phone: (123) 456-7890</p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/adin-lamport">linkedin.com/in/adin-lamport</a></p>
     </section>
     
 </body>
