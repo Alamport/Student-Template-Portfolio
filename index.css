@@ -58,6 +58,7 @@ body {
     z-index: 1;
     margin-top: 5px;
     border-radius: 5px;
+    right: 0;
 }
 
 .dropdown-content a {
@@ -107,9 +108,11 @@ body {
 
 /* Portfolio Section Styling */
 .portfolio {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
     padding: 5rem 2rem;
     background: #fff;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .project-card {
