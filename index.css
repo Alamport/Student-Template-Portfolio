@@ -129,6 +129,9 @@ body {
 }
 
 .project-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
     border-bottom: 5px solid #e0a66a;
 }
 
